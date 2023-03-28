@@ -9,4 +9,4 @@ function onpass(data){
     document.getElementById('output').innerText=data;
 }
 
-prom.then(onpass).catch(error);
+prom.then(onpass);
